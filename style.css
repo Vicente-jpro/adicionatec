@@ -1,0 +1,71 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+
+.pink-lighten-1{
+  color: #ec407a !important;  
+}
+
+.text-pink-lighten-1{
+  color: #ec407a !important; 
+}
+
+.text-pink-lighten-1:hover{
+  /*pink lighten-5*/
+  background-color: #fce4ec !important;
+  color: #880e4f !important;
+}
+
+.text-purple{
+  color: #9c27b0 !important;
+}
+
+.bg-pink-lighten-1{
+  background-color: #fce4ec !important;
+}
+.bg-purple{
+  background-color: #9c27b0 !important; 
+  color: #fce4ec !important;
+}
+
+.i-pink{
+  color: #fce4ec !important;
+}
+
+
+.btn-primary{
+  background-color: #9c27b0 !important;
+  color: #fce4ec !important;
+  border-color: #fce4ec !important;
+  
+}
+
+.btn-primary:hover{
+  background-color: #ec407a !important;
+  border-color: #ec407a !important;
+}
+
+.i-large{
+  font-size: 100px;
+}
+
+.i-large, 
+.i-big,
+.text-time{
+ color: #9c27b0 !important; 
+}
+
+.i-description-section, 
+.i-description{
+  color: #9c27b0 !important; 
+  font-size: 25px;
+}
+
+.border{
+  border: transparent !important;
+}
