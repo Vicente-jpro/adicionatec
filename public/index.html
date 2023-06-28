@@ -39,19 +39,29 @@
   </div>
 
 <main>
+	
 	<div class="p-5 mb-4 bg-pink-lighten-1 rounded-3">
 	  <div class="container py-5">
-	    <h1 class="display-5 fw-bold text-purple">Consultoria e Desenvolvimento de Software</h1>
-	    <p class="col-md-8 fs-4 text-purple">
-			Somos uma empresa que nasceu em 2022, atuando na 
-			área de desenvolvimento de software e consultoria gerando 
-			valores para os nossos clientes. 
-		</p>
-		<a href="#contactos">
-			<button class="btn btn-primary btn-lg" type="button" id="#contactos">
-				Entrar em contacto connosco
-			</button>
-		</a>
+		<div class="row">
+			<div class="col">
+				<h1 class="fs-2 fw-bold text-purple">Consultoria e Desenvolvimento de Software</h1>
+				<p class="col-md-8 fs-5 text-purple">
+					Somos uma empresa que nasceu em 2022, atuando na 
+					área de desenvolvimento de software e consultoria gerando 
+					valores para os nossos clientes. 
+				</p>
+				<a href="#contactos">
+					<button class="btn btn-primary btn-lg" type="button" id="#contactos">
+						Entrar em contacto connosco
+					</button>
+				</a>
+			</div>
+
+			<div class="col">
+				<img src="img/hero-img.svg" alt="adicionatec" > 
+			</div>
+		</div>
+	  
 	</div>
 	</div>
 
@@ -131,34 +141,50 @@
 
 
 	<!-- About -->
-	<div class="row align-items-md-stretch">
-		<div class="col-md-6">
-			<div class="h-100 p-5 text-white bg-pink-lighten-1 rounded-3">
-			<h2 class="text-purple" id="sobre">Sobre nós</h2>
-			<p class="fs-5 text-purple">
-				Somos uma empresa angolana que atua principalmente na área de Análise
-				Desenvolvimento de aplicações web, desktop e mobile. Desenvolvendo
-				soluções para clientes da América Latina e da Europa. 
-			</p>
-			<a href="#contactos">
-				<button class="btn btn-primary btn-lg" type="button">
-					Entrar em contacto connosco
-				</button>
-			</a>
+	<div class="container d-flex justify-content-center">
+	<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+
+			<div class="card w-75 mb-3 d-block w-100">
+				<div class="card-body">
+				  <h5 class="card-title text-center">Sobre nós</h5>
+				  <p class="card-text text-center">
+					Somos uma empresa angolana que atua principalmente na área de Análise
+					Desenvolvimento de aplicações web, desktop e mobile. Desenvolvendo
+					soluções para clientes da América Latina e da Europa. 
+				  </p>
+				</div>
 			</div>
-		</div>
-		<div class="col-md-6">
-			<div class="h-100 p-5 bg-purple border rounded-3">
-			<h2>Nosso comprimisso</h2>
-			<p class="fs-5">
-				Deixa o teu software connosco, tomaremos conta dele até a sua evolução.
-				Contamos com bons desenvolvedores de software com experiencia +6 anos para
-				dar suporte as tuas necessidades.
-			</p>
+
+		  </div>
+		  <div class="carousel-item">
+			<div class="card w-75 mb-3 d-block w-100">
+				<div class="card-body">
+				  <h5 class="card-title text-center">Nosso comprimisso</h5>
+				  <p class="card-text">
+					Deixa o teu software connosco, tomaremos conta dele até a sua evolução.
+					Contamos com bons desenvolvedores de software com experiencia +6 anos para
+					dar suporte as tuas necessidades.
+				  </p>
+				  
+				</div>
 			</div>
+		  </div>
 		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div>
 	</div>
+	  
 	<!-- End About -->
+
 
 <!-- Contact -->
 
