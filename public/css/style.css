@@ -69,3 +69,9 @@ main > .container {
 .border{
   border: transparent !important;
 }
+
+.card{
+  border-radius: none;
+  border: none;
+  box-shadow: #9c27b0;
+}
