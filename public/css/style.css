@@ -6,10 +6,9 @@ main > .container {
   padding: 60px 15px 0;
 }
 
-
-.pink-lighten-1, 
 .i-large,
-.text-title{
+.text-title,
+.pink-lighten-1{
   color: #F85A40 !important;  
 }
 
@@ -28,18 +27,19 @@ main > .container {
 .bg-pink-lighten-1{
   background-color: #fce4ec !important;
 }
-.bg-footer{
+.bg-footer,
+.carousel-control-next-icon{
   background-color: #F85A40 !important; 
 }
 
-.footer-text{
+.footer-text,
+.btn-primary{
   color: white !important;
 }
 
 
 .btn-primary{
   background-color: #9c27b0 !important;
-  color: #fce4ec !important;
   border-color: #fce4ec !important;
   
 }
@@ -70,5 +70,4 @@ main > .container {
 .card{
   border-radius: none;
   border: none;
-  box-shadow: #9c27b0;
 }
