@@ -7,34 +7,33 @@ main > .container {
 }
 
 
-.pink-lighten-1{
-  color: #ec407a !important;  
+.pink-lighten-1, 
+.i-large,
+.text-title{
+  color: #F85A40 !important;  
 }
 
-.text-pink-lighten-1{
-  color: #ec407a !important; 
+.text-dark-blue,
+.i-description{
+  color: #020C36 !important; 
 }
 
-.text-pink-lighten-1:hover{
+.text-dark-blue:hover{
   /*pink lighten-5*/
   background-color: #fce4ec !important;
   color: #880e4f !important;
 }
 
-.text-purple{
-  color: #9c27b0 !important;
-}
 
 .bg-pink-lighten-1{
   background-color: #fce4ec !important;
 }
-.bg-purple{
-  background-color: #9c27b0 !important; 
-  color: #fce4ec !important;
+.bg-footer{
+  background-color: #F85A40 !important; 
 }
 
-.i-pink{
-  color: #fce4ec !important;
+.footer-text{
+  color: white !important;
 }
 
 
@@ -53,8 +52,7 @@ main > .container {
 .i-large{
   font-size: 100px;
 }
-
-.i-large, 
+ 
 .i-big,
 .text-time{
  color: #9c27b0 !important; 
@@ -62,7 +60,6 @@ main > .container {
 
 .i-description-section, 
 .i-description{
-  color: #9c27b0 !important; 
   font-size: 25px;
 }
 
