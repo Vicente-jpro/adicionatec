@@ -71,3 +71,9 @@ main > .container {
   border-radius: none;
   border: none;
 }
+
+#adicionatec_text{
+  color: #d64c4c !important;
+  font-size: 30px;
+  margin-left: 5px;
+}
