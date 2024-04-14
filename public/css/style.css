@@ -77,3 +77,7 @@ main > .container {
   font-size: 30px;
   margin-left: 5px;
 }
+
+main > .container{
+  padding: 0;
+}
